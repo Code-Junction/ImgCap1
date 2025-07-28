@@ -133,4 +133,4 @@ if uploaded_file:
             with st.spinner("Detecting objects..."):
                 segmented = perform_segmentation(image, segmentation_model, confidence)
                 st.image(segmented, caption="Detected objects", use_container_width=True)
-                ##123GIT
+        st.success("✅ Analysis complete! Check the results on the right.")
