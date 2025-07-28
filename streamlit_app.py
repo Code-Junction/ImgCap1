@@ -1,10 +1,10 @@
 import streamlit as st
 import torch # type: ignore
-import torchvision.transforms as T # type: ignore
-from torchvision.models.detection import maskrcnn_resnet50_fpn# type: ignore
+import torchvision.transforms as T      # type: ignore
+from torchvision.models.detection import maskrcnn_resnet50_fpn  # type: ignore
 from PIL import Image, ImageDraw
 import numpy as np
-from transformers import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer# type: ignore
+from transformers  import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer 
 import warnings
 import os
 
